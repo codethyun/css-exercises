@@ -1,0 +1,24 @@
+.odd {
+    background-color: #ffc0cb;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+
+}
+
+#fourth,
+.adjust-font-size {
+    font-size: 24px;
+ 
+}
+
+/* This is a grouping selector. Each class listed is applied the CSS rules */
+
+#two {
+    color: #0000ff; 
+    font-size: 36px;
+}
+
+#fourth {
+    background-color: #90ee90;
+    font-weight: bold;
+}
+/* A hashtag is used for an ID selector. Add hashtag before the ID attribute value.
