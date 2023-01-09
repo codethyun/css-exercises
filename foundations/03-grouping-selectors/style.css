@@ -1,0 +1,21 @@
+/* styles.css */
+
+.dark,
+.light {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+
+}
+
+
+.dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.light {
+    background-color: #ffff00;
+}
+
+
