@@ -42,3 +42,14 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+
+/* This is a CSS experiment for chaining selectors */
+
+/* 
+
+.children .grandchildren {
+  background-color: blueviolet;
+}
+
+*/
