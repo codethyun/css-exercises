@@ -1,0 +1,95 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header {
+  height: 72px;
+  background: darkmagenta;
+  color: white;
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+}
+
+.sidebar {
+  width: 250px;
+  background: royalblue;
+  padding: 16px;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+}
+
+body{ 
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 32px;
+  padding-left: 16px;
+}
+
+.middle-container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  display: flex;
+  padding: 16px;
+  align-content: flex-start;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  padding: 0px;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+   margin-bottom: 16px;
+}
+
+a { 
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardbox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* border: 2px solid red; */
+}
+
+.card {
+  width: 250px;
+  /* height: 300px; remember, display: flex places the items in the primary axis and fills up the cross axis by default but NOT the primary axis unless of course you apply flex: 1 to the items. So, height isn't needed because it was going to stretch to fill the cross axis anyways.*/ 
+  padding: 10px;
+  /* margin: 16px; */
+}
+
